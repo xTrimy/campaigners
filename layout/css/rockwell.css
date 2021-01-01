@@ -1,4 +1,10 @@
 @font-face {
   font-family: "Rockwell";
-  src: url('../fonts/rockwell/ROCK.ttf');
+  src: url('../fonts/rockwell/ROCK.TTF');
+}
+
+@font-face {
+  font-family: "Rockwell";
+  font-weight: bold;
+  src: url('../fonts/rockwell/rockb.ttf');
 }

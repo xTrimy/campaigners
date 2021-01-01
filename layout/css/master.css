@@ -94,7 +94,7 @@ body {
 }
 
 #top-banner .content h2 {
-  font-size: 60px;
+  font-size: 43px;
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -247,4 +247,176 @@ h1.center {
 
 .wrapper {
   padding: 0 15%;
+}
+.team {
+  width: 100%;
+  height: 400px;
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.team .splide {
+  padding: 0 50px;
+}
+
+.team .item {
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .item .image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.team .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team .item .name {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.team .item .position {
+  font-weight: 18px;
+  color: #666;
+}
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: #137007;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.c-image {
+  width: 80%;
+  max-width: 250px;
+  height: 250px;
+  margin: 0 40px;
+}
+
+.c-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.committees .item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.committees .item h1 {
+  font-size: 35px;
+}
+#section7 .splide__slide img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1200px) {
+  #top-banner .content{
+    padding:200px 0;
+  }
+  .flex-container.section{
+    flex-direction: column;
+    align-items: center;
+  }
+  #section1.flex-container.section {
+    flex-direction: column-reverse;
+    
+  }
+  .wrapper{
+    padding:0 7%;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+ #top-banner .content h2{
+   font-size:35px;
+ }
+ #top-banner .content h1 {
+   font-size: 80px;
+ }
+ .wrapper {
+   padding: 0 5%;
+ }
+ #section1 .right img {
+   height: 250px;
+ }
+  .team li.splide__slide {
+    width: 350px !important;
+  }
+  .committees .item{
+    flex-direction: column;
+    align-items: center;
+    margin:50px 0;
+    margin-bottom:150px;
+  }
+
+  .committees .item:nth-child(2n) {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+   #top-banner .content h2 {
+     font-size: 25px;
+   }
+
+   #top-banner .content h1 {
+     font-size: 60px;
+   }
+   .wrapper {
+     padding: 0 2%;
+   }
+   .team .item{
+     width: 100%;
+   }
+   .team  li.splide__slide {
+    width:300px !important;
+   }
+   #section2 .right{
+     margin:0;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+    #top-banner .content h2 {
+      font-size: 18px;
+    }
+
+    #top-banner .content h1 {
+      font-size: 40px;
+    }
+    #top-banner .content {
+      padding: 150px 0;
+    }
+    .wrapper {
+      padding: 0 1%;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    .team  li.splide__slide {
+      width: 200px !important;
+    }
 }
